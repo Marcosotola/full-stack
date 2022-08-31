@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+h1 {
+    color: rgb(223, 170, 46);
+    font-family: "Alfa Slab One", cursive;
+    text-align: center;
+}
+
+body {
+    background-color: aquamarine;
+    background-image: url(./img/abstracto.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
