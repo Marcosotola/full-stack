@@ -1,0 +1,42 @@
+.body{
+    background-color: azure;
+    display: grid;
+    grid-template-rows: 100px 70px 800px 400px 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "main main main aside"
+    "section-1 section-2 section-3 aside"
+    "footer footer footer footer"
+    ;
+}
+.header{
+    background-color: aqua;
+    grid-area: header;
+}
+.nav{
+    background-color: bisque;
+    grid-area: nav
+    ;
+}
+.main{
+    background-color: cornflowerblue;
+    grid-area: main;
+}
+.aside{
+    background-color: blueviolet;
+    grid-area: aside
+    ;
+}
+.section-1{
+    background-color: blue;
+    grid-area: section-1;
+}
+.section-2{
+    background-color: greenyellow;
+    grid-area: section-2;
+}
+.section-3{
+    background-color: gray;
+}
