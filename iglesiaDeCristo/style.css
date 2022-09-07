@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.body{
+    display: grid;
+    grid-template-rows: 50px 120px 800px 400px 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "logo nav nav iconoPerfil"
+    "main main main aside"
+    "section-1 section-2 section-3 aside"
+    "footer footer footer footer"
+    ;
+}
+.header{
+    grid-area: header;
+    text-align: center;
+}
+h1 {
+    font-family: "Kite+One";
+    color: #ff914d;
+}
+.logo {
+    background-color: #737373;
+    grid-area: logo;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.nav{
+    background-color: #737373;
+    color: white;
+    grid-area: nav ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconoPerfil {
+    grid-area: iconoPerfil;
+    background-color: #737373;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.main{
+    background-color: cornflowerblue;
+    grid-area: main;
+}
+.aside{
+    background-color: blueviolet;
+    grid-area: aside
+    ;
+}
+.section-1{
+    background-color: blue;
+    grid-area: section-1;
+}
+.section-2{
+    background-color: greenyellow;
+    grid-area: section-2;
+}
+.section-3{
+    background-color: gray;
+}
