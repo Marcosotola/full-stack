@@ -28,7 +28,7 @@ h1 {
     color: #ff914d;
 }
 .logo {
-    background-color: #737373;
+    background-color: rgb(81, 79, 79);
     grid-area: logo;
     display: flex;
     justify-content: left;
@@ -36,16 +36,18 @@ h1 {
 
 }
 .nav{
-    background-color: #737373;
+    background-color: rgb(81, 79, 79);
     color: white;
     grid-area: nav ;
     display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
     justify-content: space-around;
     align-items: center;
 }
 .iconoPerfil {
     grid-area: iconoPerfil;
-    background-color: #737373;
+    background-color: rgb(81, 79, 79);
     display: flex;
     justify-content: right;
     align-items: center;
