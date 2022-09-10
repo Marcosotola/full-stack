@@ -1,6 +1,11 @@
+/*----------------------- INDEX CSS--------------------------*/
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; /*para sacar la rayita de los enlaces*/
+
 }
 
 
@@ -10,22 +15,28 @@
 .body{
     display: grid;
     grid-template-rows: 50px 120px 800px 400px 100px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr;
     grid-template-areas: 
-    "header header header header"
-    "logo nav nav iconoPerfil"
-    "main main main aside"
-    "section-1 section-2 section-3 aside"
-    "footer footer footer footer"
-    ;
+    "header header header header header header"
+    "logo nav nav  nav nav iconoPerfil"
+    "article article main main aside aside"
+    "section-1 section-1 section-2 section-2 section-3 section-3"
+    "footer footer footer footer footer footer";
 }
 .header{
     grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
+    background-color: #ff914d;
+    padding: 10px;
 }
 h1 {
-    font-family: "Kite+One";
-    color: #ff914d;
+    font-family: "Montserrat";
+    color: rgb(81, 79, 79);
+    
 }
 .logo {
     background-color: rgb(81, 79, 79);
@@ -35,22 +46,32 @@ h1 {
     align-items: center;
 
 }
-.nav{
+.navBar{
     background-color: rgb(81, 79, 79);
     color: white;
     grid-area: nav ;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Montserrat;
     font-size: 25px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .iconoPerfil {
     grid-area: iconoPerfil;
     background-color: rgb(81, 79, 79);
     display: flex;
-    justify-content: right;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: Montserrat;
+    font-size: 17px;
+    color: white;
+}
+.article{
+    grid-area: article;
+    display: flex;
+    background-color: blanchedalmond;
+
 }
 .main{
     background-color: cornflowerblue;
@@ -71,4 +92,38 @@ h1 {
 }
 .section-3{
     background-color: gray;
+}
+.link-1{
+    margin: 1rem;
+}
+.link-2{
+    margin: 1rem;
+}
+.link-3{
+    margin: 1rem;
+}
+.link-4{
+    margin: 1rem;
+}
+.link-5{
+    margin: 1rem;
+}
+.link-6{
+    margin: 1rem;
+}
+.link-7{
+    margin: 1rem;
+}
+
+.formulario{
+    padding: 6rem;
+border-radius: 1rem;
+    background-color: bisque;
+    width: 100%;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
 }
