@@ -1,0 +1,11 @@
+.header{
+    background-color: #dcc69b;
+    color: #93435b;
+    margin: 0.5rem;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+.main{
+    background-color:#c88782;
+    margin: 0.5rem;
+}
