@@ -52,3 +52,7 @@ body{
     background-color: black;
     color: white;
 }
+
+@media (min-width: 992  px){
+    body{background-color: aquamarine;}
+}
