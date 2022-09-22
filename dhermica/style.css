@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .header{
     background-color: #dcc69b;
     color: #93435b;
@@ -6,6 +12,15 @@
     padding: 0.3rem;
 }
 .main{
-    background-color:#c88782;
+    background-color:#f1b1cc;
     margin: 0.5rem;
+    border-radius: 5px;
+}
+h4{
+    color: #93435b;
+}
+footer{
+    background-color: violet;
+    margin: 0.5rem;
+    border-radius: 5px;
 }
