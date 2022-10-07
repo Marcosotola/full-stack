@@ -43,3 +43,11 @@ const result = listaDeNumeros.map((numero) => {
         return numero + "es impar"
     }
 })
+
+//actividad 2
+
+const listaDeNombres = ["Francisco", "Marco", "Luci", "Nico", "Elizabeth"]
+
+nombres.filter((nombre) => nombre.length < 5 )
+
+const nombresCortos = listaDeNombres.filter((nombre) => nombre.length < 5)
